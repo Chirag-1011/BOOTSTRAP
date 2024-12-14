@@ -1,0 +1,43 @@
+@media(max-width:992px)
+{
+    #icondiv{
+        margin-left: 0px;
+    }
+    input{
+        width: 550px;
+    }
+    .but13{
+        margin-top: 40px;
+        margin-left: 180px;
+    }
+}
+@media(max-width:768px){
+    .head{
+        height: 150px;
+    }
+    #icondiv{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #but1{
+        margin-top: 15px;
+        margin-left: 250px;
+    }
+}
+@media(max-width:576px){
+    .head{
+        height: 150px;
+    }
+    #icondiv{
+        
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    input{
+        width: 450px;
+    }
+    #but1{
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+}

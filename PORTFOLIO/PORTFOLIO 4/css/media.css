@@ -1,0 +1,42 @@
+@media(max-width:992px)
+{
+    .text{
+        width: 400px;
+        margin-left: -415px;
+    }
+    .text1{
+        font-size: 18px;
+    }
+}
+@media(max-width:768px)
+{
+    .text{
+        width: 400px;
+        margin-left: -540px;
+    }
+    .text1{
+        font-size: 18px;
+    }
+    .a2{
+        margin-top: 50px;
+    }
+    #card{
+        margin-top: 50px;
+    }
+}
+@media(max-width:576px)
+{
+    .text{
+        width: 400px;
+        margin-left: -630px;
+    }
+    .text1{
+        font-size: 18px;
+    }
+    .a2{
+        margin-top: 50px;
+    }
+    #card{
+        margin-top: 50px;
+    }
+}

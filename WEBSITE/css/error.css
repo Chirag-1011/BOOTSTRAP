@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.a{
+    background-image: url(/image/bg.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#but1{
+    height: 55px;
+    background-color: #4934d3;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    width: 200px;
+    z-index: 1;
+    font-weight: bold;
+    margin-left: 35px;
+}
+#but1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #242471;
+    height: 0%;
+    width: 1%;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+#but1:hover::before{
+    height: 100%;
+    width: 100%;
+}
+#text{
+    position: absolute;
+    top: 200px;
+    left: 470px;
+}
+.leftman{
+    height: 320px;
+    margin-left: 20px;
+}
+.leftman{
+    animation: dc;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 50px;
+}
+@keyframes dc {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.rightman{
+    height: 320px;
+    margin-left: 20px;
+}
+
+.rightman{
+    animation: dcyt;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 400px;
+    right: 20px;
+}
+@keyframes dcyt {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

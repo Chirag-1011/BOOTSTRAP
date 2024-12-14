@@ -1,0 +1,44 @@
+@media(max-width:992px)
+{
+    #ul{
+        padding: 40px;
+        width: 50%;
+    }
+}
+@media(max-width:768px)
+{
+    nav{
+        width: 100%;
+        background-color: #0a0a0a;
+    }
+    #ul{
+        padding: 40px;
+        width: 70%;
+    }
+    #b{
+        height: 450px;
+    }
+    #but1{
+        display: none;   
+    }
+    #logo1{
+        margin-left: 220px;
+    }
+}
+@media(max-width:576px)
+{
+    nav{
+        width: 100%;
+        background-color: #0a0a0a;
+    }
+    #ul{
+        padding: 40px;
+        width: 100%;
+    }
+    #b{
+        height: 400px;
+    }
+    #logo1{
+        margin-left: 150px;
+    }
+}

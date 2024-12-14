@@ -1,0 +1,95 @@
+header{
+    height: 100vh;
+    width: 100%;
+    background-color: #0a192e;
+    position: relative;
+}
+#nav1{
+    padding-top: 30px;
+}
+#ul{
+    font-size: 20px;
+    color: #d5d5f7;
+    transition: 0.5s;
+}
+#ul1{
+    font-size: 20px;
+    color: #64ffda;
+    transition: 0.5s;
+}
+
+#but1{
+    padding: 10px;
+    background: transparent;
+    color: #64ffda;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: 0.5s;
+    border: 2px solid #64ffda;
+}
+#but1:hover{
+    background-color: #64ffda;
+    color: black;
+}
+#ul:hover{
+    color: #64ffda;
+}
+#iconto{
+    font-size: 25px;
+    color: #64ffda;
+}
+#aa{
+    font-size: 100px;
+    color: white;
+}
+#aa1{
+    font-size: 55px;
+    color: white;
+}
+.text{
+    color: #d5d5f7;
+    font-size: 22px;
+    line-height: 50px;
+}
+form{
+    border-radius: 20px;
+    padding: 70px;
+    background-color: #112240;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #d5d5f7;
+    color: white;
+}
+::placeholder{
+    color: #d5d5f7;
+    padding-left: 10px;
+}
+textarea{
+    padding: 10px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #d5d5f7;
+}
+
+@media(max-width:992px)
+{
+    .header{
+        height: 150vh;
+    }
+}
+@media(max-width:768px)
+{
+    .header{
+        height: 250vh;
+    }
+}
+@media(max-width:576px)
+{
+    .header{
+        height: 270vh;
+    }
+}

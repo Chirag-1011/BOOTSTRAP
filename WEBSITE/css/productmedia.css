@@ -1,0 +1,96 @@
+@media(max-width:992px)
+{
+    #icondiv{
+        margin-left: 0px;
+    }
+    .but12{
+        margin-top: 100px;
+        margin-left: 380px;
+    }
+    #input1{
+        margin-left: 120px;
+        width: 700px;
+    }
+    .img12{
+        padding: 50px;
+        width: 250px;
+        height: 242px;
+        border-radius: 25px;
+    }
+    input{
+        width: 550px;
+    }
+    .but13{
+        margin-top: 40px;
+        margin-left: 180px;
+    }
+}
+
+@media(max-width:768px){
+    .head{
+        height: 150px;
+    }
+    #icondiv{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #but1{
+        margin-top: 15px;
+        margin-left: 250px;
+    }
+    .but12{
+        margin-top: 100px;
+        margin-left: 270px;
+    }
+    .dd{
+        margin-top: 50px;
+    }
+    #input1{
+        margin-left: 120px;
+        width: 400px;
+    }
+    .img12{
+        padding: 50px;
+        width: 307px;
+        height: 242px;
+        border-radius: 25px;
+    }
+    input{
+        width: 600px;
+    }
+    .but13{
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+}
+@media(max-width:576px){
+    .head{
+        height: 150px;
+    }
+    #icondiv{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #but1{
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    .dd{
+        margin-top: 50px;
+    }
+    .but12{
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+    #input1{
+        margin-left: 50px;
+        width: 400px;
+    }
+    input{
+        width: 450px;
+    }
+    .but13{
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+}

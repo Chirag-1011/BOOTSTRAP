@@ -1,0 +1,161 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(/image/home-banner.jpg);
+}
+#ul{
+    font-weight: bolder;
+    font-size: 13px;
+}
+#img1{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+}
+#text{
+    position: absolute;
+    top: 240px;
+    left: 950px;
+    width: 550px;
+}
+#text3{
+    color: #181818;
+    font-size: 14px;
+    line-height: 30px;
+}
+#but1{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 150px;
+    transition: 1s;
+    background: linear-gradient(to right,#8392ff,#62bcfc);
+}
+#but1:hover{
+    background: linear-gradient(to left,#8392ff,#62bcfc);
+    
+}
+.a{
+    padding: 20px;
+}
+#a1{
+    padding: 50px;
+}
+#pr1{
+    width: 85%;
+    background: linear-gradient(to right,#8392ff,#62bcfc);
+}
+#pr2{
+    width: 90%;
+    background: linear-gradient(to right,#8392ff,#62bcfc);
+}
+#pr3{
+    width: 70%;
+    background: linear-gradient(to right,#8392ff,#62bcfc);
+}
+#pr4{
+    width: 95%;
+    background: linear-gradient(to right,#8392ff,#62bcfc);
+}
+#pr5{
+    width: 75%;
+    background: linear-gradient(to right,#8392ff,#62bcfc);
+}
+#a11{
+    font-size: 14px;
+    padding-top: 5px;
+}
+#main{
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px 0px;
+}
+#icon1{
+    color:#8392ff;
+    font-size: 22px;
+    padding-bottom: 15px;  
+}
+.b{
+    padding: 0px;
+    background-color: #f9f9ff;
+}
+#bb{
+    padding: 150px;
+}
+#b21{
+    padding: 50px;
+}
+#icon2{
+    padding-bottom: 15px;
+    font-size: 10px;
+    color:#8392ff;
+    font-size: 22px;
+}
+#bbb{
+    transition: 0.5s;
+    border-radius: 20px;
+}
+#bbb:hover{
+    box-shadow: 0px 0px 5px 0px;
+}
+.c{
+    padding: 80px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+#db{
+    text-decoration: none;
+}
+h4{
+    color: #181818;
+}
+.e{
+    background-color: #f9f9ff;
+    padding: 100px;
+}
+#ee{
+    text-decoration: none;
+}
+footer{
+    padding: 50px;
+    background-color: #000410;
+}
+#dc{
+    text-decoration: none;
+    font-size: 20px;
+}
+#last{
+    color: #cccccc;
+}
+#input{
+    width: 400px;
+    border: none;
+    padding: 10px;
+}
+#butlast{
+    border: 1px solid white;
+    padding: 15px;
+    width: 80px;
+    background: linear-gradient(to right,#62bcfc,#8392ff);
+}
+#arrow{
+    font-size: 22px;
+    color: white;
+}
+#icons{
+    margin-right: 20px;
+    color: #cccccc;
+}

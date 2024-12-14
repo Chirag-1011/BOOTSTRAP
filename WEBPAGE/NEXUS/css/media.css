@@ -1,0 +1,32 @@
+@media(max-width:992px){
+    .a{
+        height: 500px;
+    }
+    #aa{
+        margin-top: -110px;
+    }
+}
+@media(max-width:768px)
+{
+    #aaa{
+        display: none;
+    }
+    .a{
+        height: 500px;
+    }
+    #aa{
+        margin-top: -110px;
+    }
+}
+@media(max-width:576px)
+{
+    #aaa{
+        display: none;
+    }
+    .a{
+        height: 500px;
+    }
+    #aa{
+        margin-top: -100px;
+    }
+}

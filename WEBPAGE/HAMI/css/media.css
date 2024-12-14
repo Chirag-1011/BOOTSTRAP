@@ -1,0 +1,38 @@
+@media(max-width:992px)
+{
+    #a{
+        height: 850px;
+    }
+}
+@media(max-width:768px)
+{
+    #aa2{
+        display: none;
+    }
+    #img1{
+        height: 100px;
+    }
+    
+    #a{
+        height: 700px;
+    }
+    /* #but3{
+        margin-left:150px;
+    } */
+}
+@media(max-width:576px)
+{
+    #aa2{
+        display: none;
+    }
+    #img1{
+        height: 100px;
+    }
+    
+    #a{
+        height: 740px;
+    }
+    #but3{
+        margin-left:100px;
+    }
+}

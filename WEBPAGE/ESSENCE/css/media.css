@@ -1,0 +1,12 @@
+@media(max-width:576px)
+{
+    #nav{
+        display: none;
+    }
+    #Search{
+        display: none;
+    }
+    #img1{
+        margin-left: 00px;
+    }
+}

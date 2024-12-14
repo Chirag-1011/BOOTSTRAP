@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    img{
+        height: 150px;
+        width: 25 0px;
+    }
+    .a{
+        height: 100vh;
+        width: 100%;
+    }
+</style>
+<body>
+    <div class="a bg-dark">
+    <header class="navbar navbar-expand-md">
+        <div class="navbar-brand">
+            <img src="/IMAGE/LOGO.png" alt="" class="navbar-brand ing-fluid">
+        </div>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"  data-bs-target="#collapse" data-bs-dismiss="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="collapse">
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item"><a href="" class="nav-link text-light me-5">HOME</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-light me-5">UP-COMING EVENT</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-light me-5">SERVICE</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-light me-5">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal"  data-bs-target="#modaldc" >Login</button>
+    </header>
+    <div class="modal" id="modaldc">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="h1">LOGIN</span>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="Enter Your Email"><br>
+                    <input type="text" class="form-control" placeholder="password">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success">Login</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+@media(max-width:992px)
+{
+    .leftman{
+        height: 150px;
+       }
+       .rightman{
+        height: 150px;
+       }
+       #text{
+        position: absolute;
+        top:10px;
+        left: 50px;
+        }
+
+}
+@media(max-width:768px)
+{
+   .leftman{
+    height: 150px;
+   }
+   .rightman{
+    height: 150px;
+   }
+   #text{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    }
+}
+@media(max-width:576px)
+{
+    .leftman{
+        display: none;
+    }
+    .rightman{
+        display: none;
+    }
+    #text{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+    }
+}

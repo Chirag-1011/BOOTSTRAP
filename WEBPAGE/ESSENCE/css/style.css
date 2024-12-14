@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#img1{
+    height: 22px;
+}
+#Search{
+    padding: 10px;
+    width: 300px;
+}
+#logo{
+    margin-top: 45px;
+    margin-left: 50px;
+    height: 20px;
+}
+ul{
+    margin-left: 100px;
+    position: absolute;
+    top: 50px;
+}
+li{
+    list-style: none;
+    margin-left: 55px;
+}
+#nav{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+}
+.a{
+    height: 800px;
+    background-image: url(/image/bg-1.jpg);
+}
+.a1{
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+.but1{
+    height: 45px;
+    width: 200px;
+    background-color: #0315ff;
+    color: white;
+    border-radius: 0px;
+    border: none;
+}
+#col1{
+    height: 250px;
+    background-image: url(/image/bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(173, 167, 167);
+    background-blend-mode: overlay;
+}
+#col2{
+    height: 250px;
+    background-image: url(/image/bg-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(173, 167, 167);
+    background-blend-mode: overlay;
+}
+#col3{
+    height: 250px;
+    background-image: url(/image/bg-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(173, 167, 167);
+    background-blend-mode: overlay;
+}
+#c1{
+    background-image: url(/image/bg-5.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.cc{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+.d{
+    background-color: #f5f7f9;
+}
+footer{
+    padding:50px;
+    background-color: #838383;
+}
+.dcyt{
+    text-decoration: none;
+    color: white;
+}
+#input{
+    padding: 8px;
+    width: 300px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+::placeholder{
+    color: white;
+}
+li{
+    list-style: none;
+    
+}
+#lasti{
+    color: white;
+    font-size: 25px;
+}

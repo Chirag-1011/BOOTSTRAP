@@ -1,0 +1,56 @@
+@media(max-width:992px){
+    #icondiv{
+        margin-left: 0px;
+    }
+    input{
+        width: 550px;
+    }
+    .bb4{
+        margin-top: 20px;
+    }
+}
+@media(max-width:768px)
+{
+    .head{
+        height: 150px;
+    }
+    #icondiv{
+        margin-left: 0px;
+        margin-top: 20px;
+        #but1{
+            margin-top: 15px;
+        }
+        margin-left: 250px;
+    }
+    .dd{
+        margin-top: 150px;
+    }
+    #ba{
+        margin-top: 20px;
+    }
+
+   
+}
+@media(max-width:576px)
+{
+    .head{
+        height: 150px;
+    }
+    #icondiv{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #but1{
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    #ba{
+        margin-top: 20px;
+    }
+    input{
+        width: 450px;
+    }
+    .dd{
+        margin-top: 150px;
+    }
+}
